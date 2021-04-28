@@ -1,0 +1,33 @@
+be_logger = BE_Logger
+be_logger_title = BE_Logger - Backend-Logging
+
+be_logger_logfile = Logfile
+be_logger_config = Einstellungen
+be_logger_help = Hilfe
+
+be_logger_label_filter_date = Datum
+be_logger_label_filter_login = Login
+be_logger_label_filter_name = Name
+be_logger_label_filter_method = Methode
+be_logger_label_filter_logpage = Page
+be_logger_label_filter_params = Params
+be_logger_button_filter = Filtern
+
+be_logger_thead_title = Liste der Logeinträge
+be_logger_list_no_rows = Keine Daten für diese Auswahl vorhanden!
+be_logger_msg_error_date = Filter-Datum ungültig!
+
+be_logger_title_config = Logging - Einstellungen
+be_logger_config_legend1 = Ausnahmen vom Logging
+be_logger_ignoreinfo = Über die folgenden Felder können Backend-Seiten/Addons und Benutzer vom Logging ausgeschlossen werden
+be_logger_config_label_ignorepages = Kommaseparierte Liste Ausnahmen <code>pages</code>
+be_logger_config_label_ignoreuser = Kommaseparierte Liste Ausnahmen <code>user</code>
+
+be_logger_config_legend2 = Logeinträge löschen
+be_logger_config_label_deletedays = Einträge alter als (Tage) automatisch löschen
+
+be_logger_title_truncate = Logging-Tabelle leeren
+be_logger_truncate_info = Über den folgenden Button <code>Tabelle leeren</code> kann die komplette Logging-Tabelle geleert werden.
+be_logger_button_truncate = Tabelle leeren
+be_logger_truncate_confirm = Logging-Tabelle komplett leeren?
+be_logger_truncate_successful = Logging-Tabelle wurde geleert!

@@ -1,0 +1,27 @@
+package: be_logger
+version: "0.1.0beta1"
+author: "Friends Of REDAXO"
+supportpage: https://redaxo.org/support/community/#slack
+
+page:
+  title: translate:be_logger
+  icon: rex-icon fa-list
+  pjax: true
+  perm: admin[]
+
+  subpages:
+    logfile:
+      title: "translate:be_logger_logfile"
+    config:
+      title: "translate:be_logger_config"
+    help:
+      {
+        title: "translate:be_logger_help",
+        icon: rex-icon fa-question-circle,
+        subPath: README.md,
+        itemclass: pull-right,
+      }
+
+requires:
+  redaxo: "^5.10.0"
+  php: ">=7.3"

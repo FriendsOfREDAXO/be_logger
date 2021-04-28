@@ -1,0 +1,19 @@
+/* Filter Input */
+
+div.be_logger-filter {
+    padding: 5px 15px;
+}
+
+div.be_logger-filter div.form-group {
+    margin-right: 5px;
+}
+
+div.be_logger-filter div.form-group label {
+    margin-right: 2px;
+}
+
+input.filter-text {
+    width: 7.0em !important;
+    padding-left: 3px;
+    padding-right: 3px;
+}
